@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quantico", sans-serif;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+header{
+    background-color: #272C3D;
+    box-shadow: 0px 0px 10px 10px #00000080;
+  padding: 21px 0;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+  gap: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+color: #FF9C28;
+}
+input{
+    width: 241px;
+    height: 30px;
+    color: white;
+    background-color: #404864;
+    padding: 10px;
+    border: none;
+}
+select{
+    background-color: #00000080;
+    color: white;
+    border: none;
+    width: 165px;
+    padding: 10px;
+}
+.hero1{
+height: 654px;
+background-image: url("./Bg.png");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.hero-img{
+    background-color: black
+    ;
+    padding-top: 20px;
+
+}
+h2{
+font-weight: 400;
+font-size: 32px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+padding-bottom: 30px;
+}
+.hero-img h2{
+text-align: center;
+}
+.img-ota{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.champ{
+    background-color: #1B1E27;
+    padding: 50px;
+}
+.champ h3{
+    color: white;
+    
+}
+.champ-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.champ-box p{
+    color: white;
+    width: 400px;
+    margin: 50px auto;
+}
